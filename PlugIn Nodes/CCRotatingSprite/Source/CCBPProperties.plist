@@ -5,7 +5,7 @@
 	<key>displayName</key>
 	<string>CCRotatingSprite</string>
 	<key>inheritsFrom</key>
-	<string>CCNode</string>
+	<string>CCSprite</string>
 	<key>canHaveChildren</key>
 	<string>YES</string>
 	<key>className</key>
@@ -36,54 +36,6 @@
 			<string>CCRotatingSprite</string>
 			<key>type</key>
 			<string>Separator</string>
-		</dict>
-		<dict>
-			<key>defaultSerialization</key>
-			<array>
-				<integer>255</integer>
-				<integer>255</integer>
-				<integer>255</integer>
-			</array>
-			<key>animatable</key>
-			<true/>
-			<key>displayName</key>
-			<string>Color</string>
-			<key>type</key>
-			<string>Color3</string>
-			<key>name</key>
-			<string>color</string>
-		</dict>
-		<dict>
-			<key>defaultSerialization</key>
-			<integer>255</integer>
-			<key>animatable</key>
-			<true/>
-			<key>displayName</key>
-			<string>Opacity</string>
-			<key>type</key>
-			<string>Byte</string>
-			<key>name</key>
-			<string>opacity</string>
-		</dict>
-		<dict>
-			<key>animatable</key>
-			<true/>
-			<key>default</key>
-			<array>
-				<string></string>
-				<string></string>
-			</array>
-			<key>affectsProperties</key>
-			<array>
-				<string>blendFunc</string>
-				<string>contentSize</string>
-			</array>
-			<key>displayName</key>
-			<string>Sprite frame</string>
-			<key>type</key>
-			<string>SpriteFrame</string>
-			<key>name</key>
-			<string>displayFrame</string>
 		</dict>
 		<dict>
 			<key>displayName</key>
