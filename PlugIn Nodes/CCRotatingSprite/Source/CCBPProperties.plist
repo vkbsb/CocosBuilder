@@ -13,6 +13,10 @@
 	<key>properties</key>
 	<array>
 		<dict>
+			<key>name</key>
+			<string>CCRotatingSprite</string>
+			<key>dontSetInEditor</key>
+			<true/>
 			<key>displayName</key>
 			<string>CCRotatingSprite</string>
 			<key>type</key>
